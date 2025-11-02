@@ -4,7 +4,7 @@
 
 Peut-être nécessaire d'installer un env conda.
 
-Dézipper `contours/contours-france-entiere-latest-v2.geojson.zip`.
+Utiliser `download_data.py` pour récupérer les données si besoin (j'ai pas testé mais en gros c'est ça). Ou utiliser les urls dans Sources.
 
 Modifier `enrich_contours.py` en adaptant les paramètres aux besoins.
 
@@ -14,6 +14,12 @@ python enrich_contours.py
 ```
 
 Deux fichiers doivent avoir été générés dans `results`.
+
+Aller sur <framacarte.org/>, créer une carte et importer les données générées.
+
+En bonus : dézipper les fichiers `contours/communes-50m.geojson 2.zip` et `contours/circonscriptions-legislatives-p20.geojson.zip` et les importer dans framacarte.
+
+
 
 ## Grille des nuances individuelles - élections législatives 2024
   
